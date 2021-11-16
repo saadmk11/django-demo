@@ -19,6 +19,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - run: nohup python manage.py runserver 0.0.0.0:8000 &
+    - run: sleep 10
 
     - name: screenshot
       uses: saadmk11/comment-website-screenshot@main
