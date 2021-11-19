@@ -20,4 +20,4 @@ jobs:
       with:
         upload_to: github_branch
         capture_changed_html_files: yes
-        capture_urls: 'http://172.17.0.1:8000/, http://172.17.0.1:8000/admin/login/'
+        capture_urls: 'http://172.17.0.1:8000/'
